@@ -1,0 +1,325 @@
+{
+  "type": "multipage",
+  "id": "MultiPageTestForm",
+  "pages": [
+    {
+      "type": "page",
+      "skipIf": false,
+      "components": [
+        {
+          "text": "### Helpdesk Experience Survey",
+          "type": "text",
+          "id": "Heading_0",
+          "layout": {
+            "row": "Row_0cr22wd"
+          }
+        },
+        {
+          "text": "\n🌟 Welcome to the Camundasafe Helpdesk Experience Survey! 🌟<br>\nDear Valued Customer,\n<br>\n\nYour satisfaction is our top priority, and we truly appreciate the trust you place in us for your insurance needs. At Camundasafe, we are committed to providing exceptional service, and your feedback plays a crucial role in helping us enhance your overall helpdesk experience.\n\nYour opinion matters, and we want to ensure that your interactions with our helpdesk are seamless, efficient, and meet the highest standards. By participating in this survey, you contribute to shaping a more customer-centric experience.\n\nMove to the next page to get started.",
+          "label": "Text view",
+          "type": "text",
+          "layout": {
+            "row": "Row_1cx3lte",
+            "columns": null
+          },
+          "id": "Field_0g61p5k"
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "skipIf": false,
+      "components": [
+        {
+          "text": "##### Communication and Responsiveness",
+          "type": "text",
+          "id": "Subheading_1",
+          "layout": {
+            "row": "row_0",
+            "columns": null
+          }
+        },
+        {
+          "values": [
+            {
+              "value": "Very Responsive",
+              "label": "Very Responsive"
+            },
+            {
+              "value": "Somewhat Responsive",
+              "label": "Somewhat Responsive"
+            },
+            {
+              "value": "Not Responsive",
+              "label": "Not Responsive"
+            }
+          ],
+          "type": "radio",
+          "id": "Radio_2",
+          "label": "Was the helpdesk representative responsive to your needs?",
+          "validate": {
+            "required": true
+          },
+          "key": "responsiveRating",
+          "layout": {
+            "row": "Row_10lz0gs"
+          }
+        },
+        {
+          "values": [
+            {
+              "value": "Very Easy",
+              "label": "Very Easy"
+            },
+            {
+              "value": "Somewhat Easy",
+              "label": "Somewhat Easy"
+            },
+            {
+              "value": "Not Easy",
+              "label": "Not Easy"
+            }
+          ],
+          "type": "radio",
+          "id": "Radio_3",
+          "label": "Did you find it easy to communicate with the helpdesk?",
+          "validate": {
+            "required": true
+          },
+          "key": "communicationRating",
+          "layout": {
+            "row": "Row_1lsanqe"
+          }
+        },
+        {
+          "values": [
+            {
+              "value": "Satisfied",
+              "label": "Satisfied"
+            },
+            {
+              "value": "Neutral",
+              "label": "Neutral"
+            },
+            {
+              "value": "Dissatisfied",
+              "label": "Dissatisfied"
+            }
+          ],
+          "type": "radio",
+          "id": "Radio_4",
+          "label": "Were you satisfied with the response time of the helpdesk?",
+          "validate": {
+            "required": true
+          },
+          "key": "responseTimeRating",
+          "layout": {
+            "row": "Row_1e4bfo2"
+          }
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "skipIf": false,
+      "components": [
+        {
+          "text": "##### Knowledge and Expertise",
+          "type": "text",
+          "id": "Subheading_5",
+          "layout": {
+            "row": "row_1",
+            "columns": null
+          }
+        },
+        {
+          "values": [
+            {
+              "value": "Sufficient Knowledge",
+              "label": "Sufficient Knowledge"
+            },
+            {
+              "value": "Insufficient Knowledge",
+              "label": "Insufficient Knowledge"
+            }
+          ],
+          "type": "radio",
+          "id": "Radio_6",
+          "label": "Did the helpdesk representative have sufficient knowledge to assist you?",
+          "validate": {
+            "required": true
+          },
+          "key": "knowledgeRating",
+          "layout": {
+            "row": "Row_0eju6ou"
+          }
+        },
+        {
+          "values": [
+            {
+              "value": "Satisfied",
+              "label": "Satisfied"
+            },
+            {
+              "value": "Neutral",
+              "label": "Neutral"
+            },
+            {
+              "value": "Dissatisfied",
+              "label": "Dissatisfied"
+            }
+          ],
+          "type": "radio",
+          "id": "Radio_7",
+          "label": "Were you satisfied with the accuracy of the information provided?",
+          "validate": {
+            "required": true
+          },
+          "key": "accuracyRating",
+          "layout": {
+            "row": "Row_0v95jj7"
+          }
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "skipIf": false,
+      "components": [
+        {
+          "text": "##### Problem Resolution",
+          "type": "text",
+          "id": "Subheading_8",
+          "layout": {
+            "row": "row_2",
+            "columns": null
+          }
+        },
+        {
+          "values": [
+            {
+              "value": "Resolved",
+              "label": "Resolved"
+            },
+            {
+              "value": "Partially Resolved",
+              "label": "Partially Resolved"
+            },
+            {
+              "value": "Not Resolved",
+              "label": "Not Resolved"
+            }
+          ],
+          "type": "radio",
+          "id": "Radio_9",
+          "label": "Was your issue resolved to your satisfaction?",
+          "validate": {
+            "required": true
+          },
+          "key": "resolutionSatisfaction",
+          "layout": {
+            "row": "Row_1v0ghp8"
+          }
+        },
+        {
+          "values": [
+            {
+              "value": "Yes",
+              "label": "Yes"
+            },
+            {
+              "value": "No",
+              "label": "No"
+            }
+          ],
+          "type": "radio",
+          "id": "Radio_10",
+          "label": "Did the helpdesk follow up to ensure your issue was resolved?",
+          "validate": {
+            "required": true
+          },
+          "key": "followUpRating",
+          "layout": {
+            "row": "Row_0xexomz"
+          }
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "skipIf": false,
+      "components": [
+        {
+          "text": "##### Overall Satisfaction",
+          "type": "text",
+          "id": "Subheading_11",
+          "layout": {
+            "row": "row_3",
+            "columns": null
+          }
+        },
+        {
+          "values": [
+            {
+              "value": "Very Satisfied",
+              "label": "Very Satisfied"
+            },
+            {
+              "value": "Satisfied",
+              "label": "Satisfied"
+            },
+            {
+              "value": "Neutral",
+              "label": "Neutral"
+            },
+            {
+              "value": "Dissatisfied",
+              "label": "Dissatisfied"
+            },
+            {
+              "value": "Very Dissatisfied",
+              "label": "Very Dissatisfied"
+            }
+          ],
+          "type": "radio",
+          "id": "Radio_12",
+          "label": "How satisfied are you with the overall helpdesk experience?",
+          "validate": {
+            "required": true
+          },
+          "key": "overallSatisfaction",
+          "layout": {
+            "row": "Row_1y29n8u"
+          }
+        }
+      ]
+    },
+    {
+      "type": "page",
+      "skipIf": false,
+      "components": [
+        {
+          "text": "##### Additional Feedback",
+          "type": "text",
+          "id": "Subheading_13",
+          "layout": {
+            "row": "row_4",
+            "columns": null
+          }
+        },
+        {
+          "type": "textarea",
+          "id": "Textarea_14",
+          "label": "Please provide any additional feedback or comments",
+          "validate": {
+            "required": true
+          },
+          "key": "additionalFeedback",
+          "layout": {
+            "row": "Row_0nj0tc4"
+          }
+        }
+      ]
+    }
+  ]
+}

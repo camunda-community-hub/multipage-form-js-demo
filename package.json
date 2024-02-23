@@ -1,0 +1,35 @@
+{
+  "name": "multipage-form-js-demo",
+  "version": "1.0.0",
+  "description": "Multi page form-js demo",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode=production",
+    "start:dev": "webpack serve --mode=development",
+    "build": "webpack --mode=production",
+    "build:dev": "webpack --mode=development"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/camunda-community-hub/multipage-form-js-demo.git"
+  },
+  "keywords": [],
+  "author": "christian.konrad@camunda.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/camunda-community-hub/multipage-form-js-demo/issues"
+  },
+  "homepage": "https://github.com/camunda-community-hub/multipage-form-js-demo#readme",
+  "devDependencies": {
+    "css-loader": "^5.2.7",
+    "html-webpack-plugin": "^5.3.1",
+    "json-loader": "^0.5.7",
+    "style-loader": "^3.3.4",
+    "webpack": "^5.36.0",
+    "webpack-cli": "^4.6.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "@bpmn-io/form-js-viewer": "^1.7.1"
+  }
+}

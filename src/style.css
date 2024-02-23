@@ -1,0 +1,67 @@
+@import "https://unpkg.com/@bpmn-io/form-js/dist/assets/form-js.css";
+
+body, html {
+  margin: 0;
+  height: 100%;
+}
+
+#form-pagination {
+  width: 100%;
+  background: #f1f1f1;
+  margin: auto;
+  position: fixed;
+  bottom: 0;
+}
+
+#form-pagination-actions {
+  display: flex;
+  margin: auto;
+  max-width: 1200px;
+  gap: 24px;
+  padding: 14px 24px;
+}
+
+#form-page-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 12px 24px;
+}
+
+#form-pager {
+  background: #f8f8f8;
+  height: 100%;
+}
+
+.form-pagination-action {
+  background: #5353ed;
+  color: white;
+  font-family: 'IBM Plex Sans', sans-serif;
+  padding: 12px 24px;
+  cursor: pointer;
+}
+
+#form-pagination-next,
+#form-pagination-submit {
+  margin-left: auto;
+}
+
+#form-pagination-back {
+  background: transparent;
+  color: #5353ed;
+  border: 1px solid #5353ed;
+}
+
+#form-pagination-back[data-active="disabled"] {
+  cursor: not-allowed;
+  color: gray;
+  border-color: gray;
+  opacity: 0.4;
+}
+
+#form-pagination-next[data-active="disabled"] {
+  display: none;
+}
+
+#form-pagination-submit[data-active="disabled"] {
+  display: none;
+}
