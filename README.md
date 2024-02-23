@@ -11,6 +11,8 @@ Multi-page form viewer using [form-js](https://github.com/bpmn-io/form-js/).
 
 This is a demo example how to use form-js to manage and render multi-page forms. Use multi-page forms to build wizards, page flows, surveys, or complex forms for your custom task application or related implementation.
 
+![Screencast](screencast.gif)
+
 > [!NOTE]  
 > This is just a demo, not intended for production usage, but use it as a starting point for your custom task apps.
 
